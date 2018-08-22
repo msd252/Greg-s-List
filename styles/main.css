@@ -1,0 +1,121 @@
+body {
+  font-size: 20px;
+}
+
+p{
+  font-size: 22px;
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 15px;
+
+}
+
+.top-nav {
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+  margin-top:35px;
+  padding-right:15px;
+}
+
+.nav-link{
+  display: inline-block;
+  padding-left:10px;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+.search-bar-container{
+  margin-top:120px;
+  margin-left:20px;
+  width: 700px;
+}
+
+.search-input{
+  display: inline-block;
+  width: 600px;
+  height:33px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+}
+
+.search-button{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: bottom;
+  padding-bottom:5px;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  padding-left:5px;
+}
+
+.pages{
+  width:410px;
+  height:40px;
+  margin-left:20px;
+  margin-top:20px;
+  font-size: 0;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+
+}
+
+.pages-left{
+  display:inline-block;
+  width:120px;
+  font-size: 20px;
+  text-align: center;
+  height:32px;
+  padding-top:8px;
+}
+
+.pages-middle{
+  display:inline-block;
+  width:149px;
+  font-size: 20px;
+  text-align: center;
+  border-right: 0.5px solid grey;
+  border-left: 0.5px solid grey;
+  height:32px;
+  padding-top:8px;
+  padding-left:10px;
+  padding-right:10px;
+
+}
+
+.pages-right{
+  display:inline-block;
+  width:120px;
+  font-size: 20px;
+  text-align: center;
+  height:32px;
+  padding-top:8px;
+}
+
+.job-list{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.job-entry{
+  color: grey;
+}
+
+.job-entry-highlight{
+  color: blue;
+  font-weight: bold;
+}
